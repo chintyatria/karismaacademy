@@ -1,0 +1,370 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: "serif";
+}
+.jumbotron {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jumbotron p {
+	line-height: 10px;
+}
+.top-wrapper {
+	padding-top: 100px;
+	padding-bottom: 180px;
+	color: white;
+	background-image: url(asset/bg-jumbotron.jpg);
+	background-size: cover;
+	opacity: 0.9;
+}
+.btn-wrapper {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+	display: block;
+	background-color: orange;
+	border-radius: 5px;
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+.btn-wrapper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.btn-wrapper:hover {
+	background-color: orange;
+}
+.btn-wrapper fa {
+	margin-right: 5px;
+}
+header {
+	height: 80px;
+	width: 100%;
+	background-color: rgb(2, 2, 49);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.logo {
+	float: left;
+	width: 170px;
+	margin-top: 17px;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	padding-right: 50px;
+}
+.header-left li {
+	list-style: none;
+	float: left;
+	padding: 10px 20px;
+	color: white;
+}
+.btn-warning {
+	margin-right: 200px;
+	margin-bottom: 300px;
+	line-height: 65px;
+	margin-top: 10px;
+	width: 150px;
+	height: 60px;
+	border-radius: 5px;
+	background-color: orange;
+	display: block;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+}
+.dropdown {
+	margin-top: -7px;
+	background-color: transparent;
+	border: transparent;
+	border: none;
+}
+.message-wrapper {
+	background-color: orange;
+	text-align: center;
+	height: 80px;
+	width: 100%;
+	padding-right: 250px;
+	/* position: fixed;
+	bottom: 0;
+	z-index: 10; */
+}
+.h6 {
+	text-decoration: line-through;
+}
+.badge {
+	background-color: red;
+}
+#kursus {
+	width: 1500px;
+	border: none;
+}
+.mx-2 {
+	padding-bottom: 3800px;
+}
+.box-container {
+	list-style-type: none;
+	float: left;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.logo2 {
+	margin-left: 250px;
+	padding-top: 50px;
+}
+
+
+
+.col-lg-4 {
+	margin-left: 40%;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 100%;
+}
+
+.text-desc {
+	margin-top: 50px;
+}
+
+.text-paragraph {
+	width: 75%;
+}
+
+.block {
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: orange;
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.table-active {
+	background-color: gainsboro;
+}
+
+.preview {
+	background-color: rgb(2, 2, 49);
+	width: auto;
+	height: 400px;
+}
+.preview img {
+	height: 200px;
+	width: 950px;
+	padding-left: 580px;
+	opacity: 0.5;
+}
+.preview span {
+	color: white;
+	padding-left: 758px;
+}
+.header-kurikulum li {
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.header-kurikulum ul {
+	margin-left: 500px;
+}
+.tabel-kurikulum {
+	margin-top: 50px;
+	padding-left: 500px;
+	border: 5px;
+}
+.judul-materi {
+	padding-right: 250px;
+}
+.isi {
+	padding-right: 100px;
+}
+.durasi {
+	padding-right: 100px;
+}
+.batas1 {
+	width: 600px;
+}
+.preview-materi {
+	background-color: rgb(2, 2, 49);
+	width: auto;
+	height: 400px;
+}
+.preview-materi .col {
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.preview-materi .row {
+	margin-left: 240px;
+}
+.img-materi {
+	height: 100px;
+	width: 200px;
+}
+.output {
+	background-color: rgb(22, 22, 88);
+	width: auto;
+	height: 400px;
+}
+.output .col {
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.output .row {
+	margin-left: 240px;
+}
+.img-output {
+	height: 100px;
+	width: 200px;
+}
+.judul-card {
+	text-align: center;
+}
+.card2 {
+	margin-left: 255px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	height: 200px;
+	width: 1000px;
+}
+.card3 {
+	margin-left: 255px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	height: 200px;
+	width: 1000px;
+}
+
+.card2 img {
+	height: 200px;
+}
+.card3 img {
+	height: 200px;
+}
+.benefit {
+	background-color: rgb(228, 228, 228);
+}
+.benefit .row .text-desc {
+	padding-left: 180px;
+	margin-left: -50px;
+}
+.benefit .row {
+	padding-left: 150px;
+}
+.sertifikat {
+	background-color: rgb(2, 2, 49);
+}
+.sertifikat h6 {
+	color: rgba(255, 255, 255, 0.9);
+}
+.sertifikat p {
+	color: rgba(255, 255, 255, 0.9);
+}
+.sertifikat h4 {
+	color: rgba(255, 165, 0, 0.9);
+}
+.sertifikat .text-desc {
+	margin-top: 50px;
+	padding-left: 300px;
+	padding-right: 200px;
+}
+.sertifikat img {
+	margin-right: 800px;
+}
+.rekomendasi {
+	padding-left: 150px;
+}
+.rekomendasi-kelas a {
+	padding-left: 680px;
+}
+footer {
+	height: 180px;
+	width: 100%;
+}
+.footer {
+	padding-top: 10px;
+	background-color: rgb(2, 2, 49);
+	color: white;
+	padding: 15px 0;
+	box-sizing: border-box;
+	/* list-style: none; */
+}
+.footer .container {
+	max-width: 1170px;
+	margin: auto;
+}
+.footer ul {
+	list-style: none;
+}
+.footer .container .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer .footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+.footer .footer-h4 {
+	font-size: 18px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	position: relative;
+}
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+.footer .social-links a {
+	display: inline-block;
+	height: 20px;
+	width: 30px;
+}
+
+.facebook {
+	float: left;
+	width: 75px;
+	padding-right: 50px;
+}
+
+.instagram {
+	float: left;
+	width: 85px;
+	margin-top: -4px;
+	padding-right: 50px;
+}
+
+.copyright {
+	text-align: center;
+	background-color: orange;
+	color: white;
+	padding: 5px;
+}
+/* .footer .baris1{
+	list-style: none;
+}
+.footer .baris2{
+	list-style: none;
+} */
